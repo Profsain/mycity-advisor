@@ -1,0 +1,32 @@
+.container {
+  padding: 25px;
+}
+
+.headline {
+  padding-bottom: 12px;
+}
+
+.formControl {
+  margin: 4px;
+  min-width: 120px;
+}
+
+.selectEmpty {
+  margin-top: 8px;
+}
+
+.loading {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marginBottom {
+  margin-bottom: 12px;
+}
+
+list {
+  height: 75vh;
+  overflow: 'auto';
+}
