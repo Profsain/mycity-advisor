@@ -3,17 +3,9 @@ import {CircularProgress, Grid, Typography, InputLabel, MenuItem, FormControl, S
 import './styles.css';
 import PlaceDetails from '../PlaceDetails/PlaceDetails';
 
-const List = () => {
+const List = ({places}) => {
   const [type, setType] = useState("restaurants");
   const [rating, setRating] = useState("0");
-
-  const places = [
-    {name: "Beautiful place"},
-    {name: "Event place"},
-    {name: "Outdoor party"},
-    {name: "Friends joint"},
-    {name: "Best place"},
-  ];
 
   return (
     <div className="container">
