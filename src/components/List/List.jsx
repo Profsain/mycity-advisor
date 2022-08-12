@@ -20,7 +20,7 @@ const List = ({places}) => {
           <MenuItem value="attractions">Attractions</MenuItem>
         </Select>
       </FormControl>
-      <FormControl className="formControl">
+      <FormControl className="formControl" varient="standard">
         <InputLabel>Rating</InputLabel>
         <Select value={rating} onChange={(e) => setRating(e.target.value)}>
           <MenuItem value={0}>All</MenuItem>

@@ -6,10 +6,11 @@
   padding-bottom: 12px;
 }
 
-.formControl {
-  margin: 4px;
-  min-width: 120px;
-}
+/* .formControl {
+  background-color: aqua;
+  margin-bottom: 30px;
+  width: 120px;
+} */
 
 .selectEmpty {
   margin-top: 8px;
@@ -27,6 +28,7 @@
 }
 
 .list {
+  padding-top: 8px;
   height: 60vh;
-  overflow: scroll;
+  overflow: auto;
 }

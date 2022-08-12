@@ -72,7 +72,7 @@ const Header = () => {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            Trip Adviser
+            City Advisor
           </Typography>
           <Typography>
             Explore nice places

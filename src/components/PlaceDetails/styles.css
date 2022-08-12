@@ -1,0 +1,9 @@
+.chip {
+  margin: 5px 5px 5px 0;
+}
+
+.spacing {
+  display: 'flex';
+  justify-content: space-between;
+  align-items: center;
+}
